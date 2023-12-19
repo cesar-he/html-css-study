@@ -1,0 +1,333 @@
+@font-face {
+    font-family: comicsans;
+    src: url(../media/fonts/COMIC.TTF);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+}
+
+.gambiarra {
+    width: 800px;
+    margin: auto;
+}
+
+a,
+p,
+h1,
+ul,
+pre {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    z-index: 2;
+}
+
+.header {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.header ul {
+    display: flex;
+    margin-right: 100px;
+    z-index: 2;
+}
+
+.menu li {
+    margin-top: 20px;
+    margin-right: 20px;
+    z-index: 2;
+}
+
+.logo {
+    margin-left: 100px;
+    padding: 20px 0px 0px 5px;
+    z-index: 2;
+}
+
+.lore {
+    margin: auto;
+    text-align: center;
+}
+
+.lore p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.banner {
+    position: flex;
+    z-index: 2;
+    height: 200px;
+    width: 500px;
+    margin: auto;
+    background-image: url("../media/images/logo_main.png");
+    background-size: cover;
+}
+
+.divisor1 {
+    background-image: url("../media/images/Bestiary.webp");
+    margin: auto;
+    width: 237px;
+    height: 37px;
+}
+
+.divisor2 {
+    background-image: url("../media/images/Dialogue_Bottom.webp");
+    margin: auto;
+    width: 250px;
+    height: 21px;
+}
+
+.imagebloco {
+    display: flex;
+}
+
+.conserto h1 {
+    margin: 0px 0px 10px 20px;
+    font-size: 26px;
+}
+
+.imagebloco p {
+    width: 400px;
+    padding: 0px 20px 0px 20px;
+    line-height: 25px;
+}
+
+.imageblock {
+    background-image: url("../media/images/img1gif.gif");
+    width: 400px;
+    height: 240px;
+    border-radius: 2px;
+}
+
+.imageblock2 {
+    background-image: url("../media/images/img2gif.gif");
+    width: 400px;
+    height: 240px;
+    border-radius: 2px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#hope {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 10%;
+    font-size: 24px;
+    padding-bottom: 32px;
+}
+
+video {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.first {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second {
+    margin: auto;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    margin-bottom: 8%;
+    
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 1s;
+}
+
+.hidden2 {
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(100%);
+    transition: all 1s;
+}
+
+.hidden3 {
+    opacity: 0%;
+    transform: scale(0.7);
+    transition: all 0.4s;
+}
+
+.show2 {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 1s;
+}
+
+.youtube {
+    height: 455px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: solid white;
+    border-radius: 4px;
+}
+
+.youtube iframe {
+    width: 800px;
+    height: 450px;
+}
+
+.second1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blocoimg {
+    margin-top: 30px;
+    margin-right: 16px;
+}
+
+.blocoimg {
+    justify-content: space-around;
+    display: flex;
+}
+
+.imageblock3 {
+    background-image: url(../media/images/menu/1.png);
+}
+
+.imageblock4 {
+    background-image: url(../media/images/menu/2.png);
+}
+
+.imageblock5 {
+    background-image: url(../media/images/menu/3.png);
+}
+
+.imageblock6 {
+    background-image: url(../media/images/menu/4.png);
+}
+
+.blocoimg .imageblock3,
+.blocoimg .imageblock4,
+.blocoimg .imageblock5,
+.blocoimg .imageblock6 {
+    margin-bottom: 10px;
+    width: 220px;
+    height: 220px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+}
+
+.conserta2 {
+    display: block;
+    width: 230px;
+}
+
+.conserta2 p {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 10px;
+    line-height: 17px;
+}
+
+.backparallax {
+    overflow: hidden;
+    display: flex;
+    margin: 0rem;
+}
+
+
+.imgparallax {
+    background-image: url(../media/images/Grimm_troupe_screen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax {
+    background-attachment: fixed;
+}
+
+/* FOOTER SETTINGS */
+
+
+.foot {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100;
+    height: 500px;
+    background-color: #e83046;
+}
+
+
+.foot h1 {
+    font-family: comicsans;
+    margin-bottom: 40px;
+}
+
+.sans {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.sans img {
+    width: 200px;
+    margin-left: -70px;
+}
+
+.sorry {
+    padding: 10px 0;
+    text-align: center;
+    z-index: 11;
+}

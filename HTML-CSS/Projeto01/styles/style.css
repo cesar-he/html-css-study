@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Gotham;
+    src: url(../fonts/GothamBold.ttf);
+}
+
+html {
+    background-color: black;
+    font-family: Gotham;
+}
+
+.titulo {
+    position: relative;
+    top: -20px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.center {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    position: relative;
+    top: -90px;
+    width: max-content;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 310px 300px;
+    grid-template-rows: 310px 90px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.vid {
+    width: 310px;
+    height:200px;
+    
+}
+
+.vid1 {
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.vid {
+    transition: .35s;
+    cursor: pointer;
+}
+
+.container:hover > :not(:hover) {
+    opacity: .4;
+    transform: scale(0.9);
+}
+

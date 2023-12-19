@@ -1,0 +1,75 @@
+@font-face {
+    font-family: EBgaramond; 
+    src: url(fonts/EBGaramond-Regular.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    font-family: EBgaramond;
+}
+
+
+p {
+    color: #dcc39d;
+    font-size: 21px;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #232820;
+    text-align: center;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.navbar > a {
+    text-decoration: none;
+    color: #dcc39d;
+    background-color: transparent;
+    margin: auto 20px auto 20px;
+}
+
+.navbar > a:hover {
+    text-decoration: underline;
+}
+
+#titulo1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 10px;
+    color: #dcc39d;
+ 
+}
+
+main {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.container-dagon {
+    width: 100%;
+    margin: 0px;
+}
+
+.left-dagon {
+    float: right;
+
+}
+
+.dagon{
+    margin-top: 20px;
+}
+
+.dagondescription {
+    margin: 10px 20px 10px 20px;
+}
+
+#necronomicon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
