@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Gotham;
+    src: url(../fonts/GothamBold.ttf);
+}
+
+html {
+    background-color: black;
+    font-family: Gotham;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    font-size: 20px;
+}
+
+.catdance {
+    position: relative;
+    top: 60px;
+    margin-bottom: -20px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1 1;
+    grid-template-rows: 300px 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    margin-top: 10px;
+    width: 40px;
+}

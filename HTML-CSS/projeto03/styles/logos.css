@@ -1,0 +1,27 @@
+.logos {
+    width: 800px;
+    margin: auto;
+}
+
+.logo-container {
+    margin: auto;
+    text-align: center;
+}
+
+.logo1 li{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-items: center;
+}
+
+.logo1 a {
+    width: 200px;
+    margin: 20px;
+}
+
+.logo1 img {
+    width: 200px;
+    height: auto;
+    margin-left: 50px;
+}
